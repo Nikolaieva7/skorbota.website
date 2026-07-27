@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://skorbota.website/</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://skorbota.website/index.html</loc>
+        <priority>0.80</priority>
+    </url>
+
+
+    <url>
+        <loc>https://skorbota.website/services.html</loc>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://skorbota.website/contacts.html</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://skorbota.website/what-to-do-after-death.html</loc>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://skorbota.website/documents-for-funeral.html</loc>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://skorbota.website/funeral-assistance.html</loc>
+        <priority>0.80</priority>
+    </url>
+
+
+</urlset>

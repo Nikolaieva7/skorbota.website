@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Основне -->
+    <title>СКОРБОТА — Ритуальні послуги в Умані | Організація поховання</title>
+    <meta name="description"
+        content="Салон ритуальних послуг «Скорбота» в Умані. Організація поховання, копка могил, ритуальний транспорт, оформлення документів та доставка ритуальних товарів.">
+    <meta name="keywords"
+        content="ритуальні послуги, поховання, копка могил, ритуальний транспорт, документи, ритуальні товари, Умань">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Салон ритуальних послуг «СКОРБОТА»">
+    <link rel="canonical" href="https://skorbota.website/">
+
+    <!-- Іконки та PWA -->
+    <link rel="icon" type="image/png" href="images-main/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="images-main/favicon.svg">
+    <link rel="apple-touch-icon" href="images-main/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Open Graph (Facebook / Viber / Telegram) -->
+    <meta property="og:title" content="Скорбота — ритуальні послуги в Умані">
+    <meta property="og:description"
+        content="Організація поховання, ритуальний транспорт, документи та ритуальні товари.">
+    <meta property="og:url" content="https://skorbota.website/">
+    <meta property="og:site_name" content="СКОРБОТА">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://skorbota.website/images-main/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Салон ритуальних послуг «СКОРБОТА» в Умані">
+    <meta property="og:image:type" content="image/png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Скорбота — ритуальні послуги в Умані">
+    <meta name="twitter:description"
+        content="Організація поховання, копка могил, ритуальний транспорт та ритуальні товари.">
+    <meta name="twitter:image" content="https://skorbota.website/images-main/og-image.jpg">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FuneralHome",
+  "@id": "https://skorbota.website/#organization",
+  "name": "Салон ритуальних послуг «СКОРБОТА»",
+  "url": "https://skorbota.website/",
+  "logo": "https://skorbota.website/images-main/favicon-192x192.png",
+  "image": "https://skorbota.website/images-main/og-image.jpg",
+  "telephone": "+380508610649",
+  "email": "skorbota.uman@ukr.net",
+  "priceRange": "₴₴",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "вул. Небесної Сотні, 28",
+    "addressLocality": "Умань",
+    "addressRegion": "Черкаська область",
+    "postalCode": "20300",
+    "addressCountry": "UA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 48.7462059,
+    "longitude": 30.2277811
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61590535929505",
+    "https://www.instagram.com/skorbota_uman/"
+  ]
+}
+</script>
+
+    <!-- Геолокація -->
+    <meta name="geo.region" content="UA-71">
+    <meta name="geo.placename" content="Умань">
+    <meta name="ICBM" content="48.7484, 30.2218">
+
+    <!-- Шрифти та стилі -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="refactored.css">
+</head>
+
+<body id="top" data-section="home">
+
+    <header class="header">
+        <div class="header__container">
+            <nav class="header__nav">
+
+                <!-- Кнопка телефону -->
+                <a class="header__phone" href="tel:+380508610649">
+                    <img class="header__phone-icon" src="imgicons/free-icon-phone-call-5441367.png" alt="Телефон">
+                    <span class="header__phone-text">+38050 861 06 49</span>
+                </a>
+
+                <!-- Кнопка-бургер (видима лише на мобільних) -->
+                <button class="header__burger" id="openMenuBtn" aria-label="Відкрити меню">
+                    <span class="header__burger-icon"></span>
+                </button>
+
+                <!-- Бокове виїзне меню (сайдбар) -->
+                <div class="header__sidebar" id="sidebarMenu">
+                    <!-- Хрестик для закриття -->
+                    <button class="header__close-btn" id="closeMenuBtn" aria-label="Закрити меню">&times;</button>
+
+                    <!-- Список посилань -->
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link" href="index.html">Головна</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="services.html">Послуги</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="index.html#gallery">Галерея</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="index.html#news">Блог</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="contacts.html">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Затемнення фону (оверлей) -->
+                <div class="header__overlay" id="menuOverlay"></div>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Головний екран (Hero Section) -->
+        <section class="hero" data-aos="fade-up">
+
+            <div class="hero__container">
+
+
+                <div class="hero__image" data-aos="fade-right" data-aos-delay="100">
+                    <img src="images-main/hero_img.png" alt="Салон ритуальних послуг в м. Умань «СКОРБОТА»">
+                </div>
+
+                <div class="hero__content" data-aos="fade-left" data-aos-delay="250">
+
+                    <h1 class="hero__title">
+                        <b>«СКОРБОТА»</b> салон ритуальних послуг в м.Умань
+                    </h1>
+
+                    <p class="hero__text">
+                        Повний комплекс ритуальних послуг та організація поховання. Понад 25 років допомагаємо родинам у
+                        найважчі хвилини.
+                    </p>
+
+                    <p class="hero__text">
+                        У нашому салоні представлено ритуальні товари, аксесуари для
+                        благоустрою місць поховання. Ми працюємо з повагою,
+                        відповідальністю та розумінням, забезпечуючи підтримку
+                        родин у складні моменти життя.
+                    </p>
+
+                    <p class="hero__location">
+                        м. Умань, вул. Небесної сотні 28, Черкаська область
+                    </p>
+                    <div class="hero__communication" data-aos="fade-up" data-aos-delay="400">
+
+
+                        <!-- Соціальні мережі та карта -->
+                        <div class="hero__socials">
+                            <a href="https://www.facebook.com/profile.php?id=61590535929505" target="_blank"
+                                class="hero__social-link" aria-label="Facebook" rel="noopener noreferrer">
+                                <img class="hero__social-icon" src="imgicons/facebook.png" alt="Facebook">
+                            </a>
+
+                            <a href="https://instagram.com" target="_blank" class="hero__social-link"
+                                aria-label="Instagram" rel="noopener noreferrer">
+                                <img class="hero__social-icon" src="imgicons/instagram.png" alt="Instagram">
+                            </a>
+
+                            <a href="https://www.google.com.ua/maps/place/Skorbota+Salon/@48.7462059,30.2252062,17z/data=!3m1!4b1!4m6!3m5!1s0x40d20dbae8ef0609:0x683f37f7ab73ec2d!8m2!3d48.7462059!4d30.2277811!16s%2Fg%2F1q2wk6tnq?hl=ru&entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D"
+                                target="_blank" class="hero__social-link" aria-label="Google Maps"
+                                rel="noopener noreferrer">
+                                <img class="hero__social-icon" src="imgicons/navigation_14059886.png" alt="Google Maps">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+        <section class="gallery" id="gallery" data-aos="fade-up">
+
+            <div class="swiper gallerySwiper" data-aos="fade-up" data-aos-duration="900">
+                <h2 class="visually-hidden">Галерея</h2>
+
+                <div class="swiper-wrapper">
+
+
+                    <div class="swiper-slide">
+                        <a href="gallery/1.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/1.png" alt="вінки на могилу">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/2.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/2.png" alt="ВІнки та хрести на могилу">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/3.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/3.png" alt="вінки та хрести на могилу">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/4.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/4.png" alt="графік роботи салону ритуальних послуг Скорбота">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/5.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/5.png" alt="Фото фасаду салону ритуальних послуг Скорбота">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/6.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/6.png" alt="фото трун та вінків">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/photo_2026-07-21_19-59-162.jpg" class="glightbox" data-gallery="gallery"
+                            data-type="image">
+                            <img src="gallery/photo_2026-07-21_19-59-162.jpg" alt="Фото ритуального транспорту">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/photo_2026-07-21_19-59-16.jpg" class="glightbox" data-gallery="gallery"
+                            data-type="image">
+                            <img src="gallery/photo_2026-07-21_19-59-16.jpg" alt="Фото ритуального транспорту">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/photo_2026-07-21_20-39-12.jpg" class="glightbox" data-gallery="gallery"
+                            data-type="image">
+                            <img src="gallery/photo_2026-07-21_20-39-12.jpg" alt="Фото ритуального транспорту">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/photo_2026-07-21_20-39-30.jpg" class="glightbox" data-gallery="gallery"
+                            data-type="image">
+                            <img src="gallery/photo_2026-07-21_20-39-30.jpg" alt="Фото ритуального транспорту">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/photo_2026-07-21_20-39-30.jpg" class="glightbox" data-gallery="gallery"
+                            data-type="image">
+                            <img src="gallery/photo_2026-07-21_20-39-30.jpg" alt="Фото ритуального транспорту">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/photo_2026-07-21_20-39-36.jpg" class="glightbox" data-gallery="gallery"
+                            data-type="image">
+                            <img src="gallery/photo_2026-07-21_19-59-16.jpg" alt="Фото ритуального транспорту">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="gallery/7.png" class="glightbox" data-gallery="gallery" data-type="image">
+                            <img src="gallery/7.png" alt="хрести на могилу та вінки">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </section>
+
+
+        <section id="news" class="news blog" data-aos="fade-up">
+
+            <div class="container-blog">
+
+                <h2 class="blog__title">Корисна інформація</h2>
+
+                <div class="swiper blogSwiper" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <article class="blog-card">
+
+                                <div class="blog-card__image">
+                                    <img src="gallery/center_icon_1_1.png" alt="Документи для поховання">
+                                </div>
+
+                                <div class="blog-card__content">
+                                    <h3>Які документи потрібні для організації поховання?</h3>
+
+                                    <a href="documents-for-funeral.html" class="contact-card__link">
+                                        Дізнатися
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="blog-card">
+                                <div class="blog-card__image">
+                                    <img src="gallery/center_icon_2_1.png" alt="Допомога на поховання">
+                                </div>
+
+                                <div class="blog-card__content">
+                                    <h3>Державна допомога на поховання у 2026 році</h3>
+
+                                    <!-- <a href="funeral-assistance.html" class="blog-card__link">
+                                            Детальніше
+                                        </a> -->
+
+
+                                    <a href="funeral-assistance.html" class="contact-card__link">
+                                        Дізнатися
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="blog-card">
+                                <div class="blog-card__image">
+                                    <img src="gallery/center_icon_3_1.png" alt="Що робити після смерті близької людини">
+                                </div>
+
+                                <div class="blog-card__content">
+                                    <h3>Що робити, якщо померла близька людина?</h3>
+
+                                    <a href="what-to-do-after-death.html" class="contact-card__link">
+                                        Дізнатися
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="blog-card">
+                                <div class="blog-card__image">
+                                    <img src="gallery/center_icon_1_3.png" alt="Пам'ятник">
+                                </div>
+
+                                <div class="blog-card__content">
+                                    <h3>Як обрати ритуальні товари для поховання?</h3>
+
+                                    <a href="how-to-choose-ritual-products.html" class="contact-card__link">
+                                        Дізнатися
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="map" data-aos="fade-up">
+            <h2 class="contacts-map__title"> Як нас знайти </h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.868647287723!2d30.225206176298887!3d48.74620587131713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x40d20dbae8ef0609%3A0x683f37f7ab73ec2d!2sSkorbota%20Salon!5e0!3m2!1sru!2sua!4v1781543718177!5m2!1sru!2sua"
+                width="100%" height="450" style="border-radius: 5px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" data-aos="zoom-in" data-aos-delay="200"
+                title="Карта розташування салону ритуальних послуг м.Умань Скорбота">
+            </iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+            <div class="footer__info">
+                <h2 class="footer__logo">Скорбота</h2>
+                <p class="footer__text">
+                    Ритуальні послуги в Умані. Цілодобова допомога та організація поховання.
+                </p>
+            </div>
+            <div class="footer__contacts">
+                <a class="footer__link" href="tel:+380508610649">
+                    <i class="bi bi-telephone-fill"></i>
+                    +38 (050) 861-06-49
+                </a>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/profile.php?id=61590535929505" target="_blank"
+                        aria-label="Facebook" rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/skorbota_uman/" target="_blank" aria-label="Instagram"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="mailto:skorbota.uman@ukr.net" aria-label="Електронна пошта">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div>
+
+                <p class="footer__address">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    м. Умань, вул. Небесної Сотні, 28
+                </p>
+            </div>
+
+            <a href="#top" class="footer__up" aria-label="Повернутися вгору">
+                <i class="bi bi-chevron-up"></i>
+            </a>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p>© 2026 «Скорбота». Всі права захищені.</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
